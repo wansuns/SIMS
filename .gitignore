@@ -1,52 +1,33 @@
-# Prerequisites
-*.d
+# Gradle files
+.gradle/
+build/
 
-# Object files
-*.o
-*.ko
-*.obj
-*.elf
+# Local configuration file (sdk path, etc)
+local.properties
 
-# Linker output
-*.ilk
-*.map
-*.exp
+# Log/OS Files
+*.log
 
-# Precompiled Headers
-*.gch
-*.pch
+# Android Studio generated files and folders
+captures/
+.externalNativeBuild/
+.cxx/
+*.apk
+output.json
 
-# Libraries
-*.lib
-*.a
-*.la
-*.lo
+# IntelliJ
+*.iml
+.idea/
+misc.xml
+deploymentTargetDropDown.xml
+render.experimental.xml
 
-# Shared objects (inc. Windows DLLs)
-*.dll
-*.so
-*.so.*
-*.dylib
+# Keystore files
+*.jks
+*.keystore
 
-# Executables
-*.exe
-*.out
-*.app
-*.i*86
-*.x86_64
-*.hex
+# Google Services (e.g. APIs or Firebase)
+google-services.json
 
-# Debug files
-*.dSYM/
-*.su
-*.idb
-*.pdb
-
-# Kernel Module Compile Results
-*.mod*
-*.cmd
-.tmp_versions/
-modules.order
-Module.symvers
-Mkfile.old
-dkms.conf
+# Android Profiling
+*.hprof
